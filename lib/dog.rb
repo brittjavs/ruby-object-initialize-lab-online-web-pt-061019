@@ -6,6 +6,7 @@ class Dog
     else
       @breed = breed
   end
+end
   def name=(name)
     @name = name
   end
