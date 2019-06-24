@@ -7,12 +7,8 @@ class Dog
     @name = name
   end
   def breed=(breed)
-    if breed == nil
-      puts "Mutt"
-    else
-      @breed = breed
+    @breed = breed
   end
-end
   def name
     @name
   end
