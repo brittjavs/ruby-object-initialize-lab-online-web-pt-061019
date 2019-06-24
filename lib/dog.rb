@@ -5,7 +5,7 @@ class Dog
       if breed == nil 
         puts "Mutt"
   end
-  
+end
   def name=(name)
     @name = name
   end
